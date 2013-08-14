@@ -1,0 +1,7 @@
+C:\Users\Jon (Standard)\Documents\GitHub\DesignPatternsExamples\DesignPatternsExamples\DesignPatternsExamples\bin\Debug\AdapterPattern.exe.config
+C:\Users\Jon (Standard)\Documents\GitHub\DesignPatternsExamples\DesignPatternsExamples\DesignPatternsExamples\bin\Debug\AdapterPattern.exe
+C:\Users\Jon (Standard)\Documents\GitHub\DesignPatternsExamples\DesignPatternsExamples\DesignPatternsExamples\bin\Debug\AdapterPattern.pdb
+C:\Users\Jon (Standard)\Documents\GitHub\DesignPatternsExamples\DesignPatternsExamples\DesignPatternsExamples\obj\Debug\AdapterPattern.exe
+C:\Users\Jon (Standard)\Documents\GitHub\DesignPatternsExamples\DesignPatternsExamples\DesignPatternsExamples\obj\Debug\AdapterPattern.pdb
+C:\Users\Jon (Standard)\Documents\GitHub\DesignPatternsExamples\DesignPatternsExamples\DesignPatternsExamples\bin\Debug\AdapterPattern.exe.CodeAnalysisLog.xml
+C:\Users\Jon (Standard)\Documents\GitHub\DesignPatternsExamples\DesignPatternsExamples\DesignPatternsExamples\bin\Debug\AdapterPattern.exe.lastcodeanalysissucceeded
