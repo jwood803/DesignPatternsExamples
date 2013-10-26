@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-﻿namespace CascadePattern
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-
-        }
-    }
-=======
 ﻿namespace CascadePattern
 {
     using System;
@@ -30,10 +19,9 @@
             email.To("Me")
                  .From("You")
                  .Subject("Hi")
-                 .MessageBody("Hello there")
+                 .MessageBody("Hello there");
 
             Console.ReadLine();
         }
     }
->>>>>>> Adding Cascade pattern example
 }
