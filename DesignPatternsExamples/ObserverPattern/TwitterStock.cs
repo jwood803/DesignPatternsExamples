@@ -2,7 +2,14 @@
 {
     public class TwitterStock : IObserver
     {
-        public void UpdateAll(Stock stock)
+        private ISubject _stockData;
+
+        public TwitterStock(ISubject stockData)
+        {
+            _stockData = stockData;
+        }
+
+        public void Update(Stock stock)
         {
             throw new System.NotImplementedException();
         }

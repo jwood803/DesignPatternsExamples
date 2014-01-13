@@ -1,20 +1,32 @@
-﻿namespace ObserverPattern
+﻿using System.Collections.Generic;
+
+namespace ObserverPattern
 {
     public class StockTicker : ISubject
     {
+        private readonly List<IObserver> _observers;
+
+        public StockTicker()
+        {
+            _observers = new List<IObserver>();
+        }
+
         public void Subscribe(IObserver observer)
         {
-            throw new System.NotImplementedException();
+            _observers.Add(observer);
         }
 
         public void Unsubscribe(IObserver observer)
         {
-            throw new System.NotImplementedException();
+            if (_observers.Contains(observer))
+            {
+                _observers.Remove(observer);
+            }
         }
 
-        public void NotifyAll()
+        public void NotifyAll(Stock stock)
         {
-            throw new System.NotImplementedException();
+            _observers.ForEach(i => i.Update(stock));
         }
     }
 }

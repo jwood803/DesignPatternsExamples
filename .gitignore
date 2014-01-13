@@ -118,3 +118,5 @@ DesignPatternsExamples/DesignPatternsExamples/obj/Debug/AdapterPattern.csproj.Fi
 *.exe
 
 DesignPatternsExamples/DesignPatternsExamples/bin/Debug/AdapterPattern.vshost.exe
+
+*.pdb

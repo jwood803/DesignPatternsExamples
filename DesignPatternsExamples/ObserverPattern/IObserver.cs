@@ -2,6 +2,6 @@
 {
     public interface IObserver
     {
-        void UpdateAll(Stock stock);
+        void Update(Stock stock);
     }
 }
