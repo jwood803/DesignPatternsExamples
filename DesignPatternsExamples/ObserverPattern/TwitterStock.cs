@@ -4,21 +4,22 @@ namespace ObserverPattern
 {
     public class TwitterStock : IObserver
     {
-        private ISubject _stockData;
+        private StockTicker _stockData;
         private double _price;
         private DateTime _dateRecieved;
         private string _symbol;
 
-        public TwitterStock(ISubject stockData)
+        public TwitterStock(StockTicker stockData)
         {
             _stockData = stockData;
+            _stockData.Subscribe(this);
         }
 
-        public void Update(Stock stock)
+        public void Update()
         {
-            _symbol = stock.Symbol;
-            _price = stock.Price;
-            _dateRecieved = stock.DateRecieved;
+            _symbol = _stockData.Stock.Symbol;
+            _price = _stockData.Stock.Price;
+            _dateRecieved = _stockData.Stock.DateRecieved;
 
             Display();
         }

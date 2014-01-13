@@ -6,11 +6,18 @@ namespace ObserverPattern
     {
         static void Main(string[] args)
         {
+            // Monitor when specific events occur and react to them
             var stockTicker = new StockTicker();
 
+            // Create observers, subscribe, and listen for the events of the stock ticker
             var twitterStock = new TwitterStock(stockTicker);
 
-            twitterStock.Update(new Stock { Symbol = "GOOG", Price = 1200, DateRecieved = DateTime.Now });
+            stockTicker.Stock = new Stock
+                                {
+                                    Symbol = "GOOG",
+                                    Price = 1000,
+                                    DateRecieved = DateTime.Now
+                                };
 
             Console.ReadLine();
         }

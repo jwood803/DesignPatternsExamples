@@ -5,6 +5,7 @@ namespace ObserverPattern
     public class StockTicker : ISubject
     {
         private readonly List<IObserver> _observers;
+        private Stock _stock;
 
         public StockTicker()
         {
@@ -24,9 +25,19 @@ namespace ObserverPattern
             }
         }
 
-        public void NotifyAll(Stock stock)
+        public void Notify()
         {
-            _observers.ForEach(i => i.Update(stock));
+            _observers.ForEach(i => i.Update());
+        }
+
+        public Stock Stock
+        {
+            get { return _stock; }
+            set
+            {
+                _stock = value;
+                this.Notify();
+            }
         }
     }
 }
