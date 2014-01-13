@@ -13,3 +13,6 @@ C:\Users\Jon-Standard\Documents\GitHub\DesignPatternsExamples\DesignPatternsExam
 C:\Users\Jon-Standard\Documents\GitHub\DesignPatternsExamples\DesignPatternsExamples\DesignPatternsExamples\bin\Debug\AdapterPattern.exe.CodeAnalysisLog.xml
 C:\Users\Jon-Standard\Documents\GitHub\DesignPatternsExamples\DesignPatternsExamples\DesignPatternsExamples\bin\Debug\AdapterPattern.exe.lastcodeanalysissucceeded
 C:\Users\Jon-Standard\Documents\GitHub\DesignPatternsExamples\DesignPatternsExamples\DesignPatternsExamples\obj\Debug\AdapterPattern.csprojResolveAssemblyReference.cache
+\\psf\Home\Documents\Visual Studio 2013\Projects\GitHub\DesignPatternsExamples\DesignPatternsExamples\DesignPatternsExamples\bin\Debug\AdapterPattern.exe.config
+\\psf\Home\Documents\Visual Studio 2013\Projects\GitHub\DesignPatternsExamples\DesignPatternsExamples\DesignPatternsExamples\obj\Debug\AdapterPattern.exe
+\\psf\Home\Documents\Visual Studio 2013\Projects\GitHub\DesignPatternsExamples\DesignPatternsExamples\DesignPatternsExamples\obj\Debug\AdapterPattern.pdb

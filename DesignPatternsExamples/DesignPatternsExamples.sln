@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.20827.3
+VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterPattern", "DesignPatternsExamples\AdapterPattern.csproj", "{E32EA142-1E03-4D95-8600-05E2C672D620}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CascadePattern", "CascadePattern\CascadePattern.csproj", "{88FD0706-52EA-4F06-BB30-C1984E1EE852}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverPattern", "ObserverPattern\ObserverPattern.csproj", "{4BC8C02F-2576-4A40-A812-6ACC0C84A54A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{88FD0706-52EA-4F06-BB30-C1984E1EE852}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88FD0706-52EA-4F06-BB30-C1984E1EE852}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88FD0706-52EA-4F06-BB30-C1984E1EE852}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BC8C02F-2576-4A40-A812-6ACC0C84A54A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BC8C02F-2576-4A40-A812-6ACC0C84A54A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BC8C02F-2576-4A40-A812-6ACC0C84A54A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BC8C02F-2576-4A40-A812-6ACC0C84A54A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
