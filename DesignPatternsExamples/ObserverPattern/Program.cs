@@ -31,6 +31,8 @@ namespace ObserverPattern
             stockTickerDelegate.SetStock(new Stock { Symbol = "TWTR", Price = 500, DateRecieved = DateTime.Now });
 
             // IObserver<T>
+            var stockTickerObservable = new StockTickerObservable();
+
 
 
 

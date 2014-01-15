@@ -49,7 +49,9 @@
     <Compile Include="StockTicker.cs" />
     <Compile Include="StockTickerDelegate.cs" />
     <Compile Include="StockTickerEventArgs.cs" />
+    <Compile Include="StockTickerObservable.cs" />
     <Compile Include="TwitterStock.cs" />
+    <Compile Include="TwitterStockObservable.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
