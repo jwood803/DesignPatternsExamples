@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CascadePattern", "CascadePa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverPattern", "ObserverPattern\ObserverPattern.csproj", "{4BC8C02F-2576-4A40-A812-6ACC0C84A54A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorPattern", "DecoratorPattern\DecoratorPattern.csproj", "{DC74890D-95ED-47B1-93E3-B72E21B97509}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{4BC8C02F-2576-4A40-A812-6ACC0C84A54A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4BC8C02F-2576-4A40-A812-6ACC0C84A54A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4BC8C02F-2576-4A40-A812-6ACC0C84A54A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC74890D-95ED-47B1-93E3-B72E21B97509}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC74890D-95ED-47B1-93E3-B72E21B97509}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC74890D-95ED-47B1-93E3-B72E21B97509}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC74890D-95ED-47B1-93E3-B72E21B97509}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

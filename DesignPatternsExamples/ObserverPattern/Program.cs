@@ -14,6 +14,7 @@ namespace ObserverPattern
             // Create observers, subscribe, and listen for the events of the stock ticker
             var twitterStock = new TwitterStock(stockTicker);
 
+            // Setting the "Stock" property will trigger a new update and will display to the console.
             stockTicker.Stock = new Stock
                                 {
                                     Symbol = "TWTR",
