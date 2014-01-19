@@ -52,6 +52,7 @@
     <Compile Include="StockTickerObservable.cs" />
     <Compile Include="TwitterStock.cs" />
     <Compile Include="TwitterStockObservable.cs" />
+    <Compile Include="Unsubscriber.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
